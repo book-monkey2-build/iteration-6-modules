@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 
 import { BookStoreService } from './shared/book-store.service';
 import { AppRoutingModule } from './app-routing.module';
-import { DateValueAccessorModule } from 'angular-date-value-accessor';
 
 import { BookModule } from './book/book.module';
 import { AdminModule } from './admin/admin.module';
@@ -23,7 +22,6 @@ import { AdminModule } from './admin/admin.module';
     BrowserModule,
     HttpModule,
     AppRoutingModule,
-    DateValueAccessorModule,
     BookModule,
     AdminModule
   ],
