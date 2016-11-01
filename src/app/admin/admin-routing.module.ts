@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: 'admin/:isbn',
-    component: BookFormComponent
+    component: BookFormComponent,
   }
 ];
 
