@@ -51525,7 +51525,7 @@ var routes = [
         component: __WEBPACK_IMPORTED_MODULE_2__home_home_component__["a" /* HomeComponent */]
     },
     {
-        path: 'book',
+        path: 'books',
         loadChildren: 'app/book-monkey/iteration-6/modules/book/book.module#BookModule'
     },
     {
@@ -54761,7 +54761,7 @@ process.umask = function() { return 0; };
 /* 605 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"ui three item tabs menu\">\n  <a routerLink=\"home\"  routerLinkActive=\"active\" class=\"item\">Home</a>\n  <a routerLink=\"book/books\" routerLinkActive=\"active\" class=\"item\">Bücher</a>\n  <a routerLink=\"admin/admin\" routerLinkActive=\"active\" class=\"item\">Administration</a>\n</div>\n<router-outlet></router-outlet>\n"
+module.exports = "<div class=\"ui three item tabs menu\">\n  <a routerLink=\"home\"  routerLinkActive=\"active\" class=\"item\">Home</a>\n  <a routerLink=\"books\" routerLinkActive=\"active\" class=\"item\">Bücher</a>\n  <a routerLink=\"admin\" routerLinkActive=\"active\" class=\"item\">Administration</a>\n</div>\n<router-outlet></router-outlet>\n"
 
 /***/ },
 /* 606 */
